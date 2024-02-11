@@ -1,0 +1,3 @@
+[workspace]
+members = ["datastruct", "datastruct_derive", "libtest"]
+resolver = "2"
