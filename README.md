@@ -17,6 +17,8 @@ writing implementation code.
 
 ## Quick Start
 
+> For full documentation, read it [here](./DOCUMENT.md).
+
 Let's start with this example structure:
 
 ```rust

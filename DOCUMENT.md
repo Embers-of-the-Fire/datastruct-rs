@@ -50,7 +50,7 @@ struct NeedDefault {
 }
 
 // generated code
-let default: NeedDefalt = {
+let default: NeedDefault = {
     let field1: usize = 42;
     let field2: String = "Something default".to_string();
     NeedDefault {
@@ -390,7 +390,7 @@ struct CanEq {
     do_not_check: usize,
 }
 
-//generated code
+// generated code
 impl ::std::cmp::PartialEq for CanEq {
     fn eq(&self, rhs: &Self) -> bool {
       (self.content == rhs.content)
@@ -548,6 +548,7 @@ struct CanOpsAssign {
     min: i8,
 }
 
+// generated code
 impl ::std::ops::Add for CanOpsAssign {
     type Output = Self;
     fn add(self, rhs: Self) -> Self {
