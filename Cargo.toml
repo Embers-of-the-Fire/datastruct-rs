@@ -1,3 +1,7 @@
 [workspace]
 members = ["datastruct", "datastruct_derive", "libtest"]
 resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+authors = ["Embers-of-the-Fire <stellarishs@163.com>"]

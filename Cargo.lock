@@ -4,7 +4,7 @@ version = 3
 
 [[package]]
 name = "datastruct"
-version = "0.1.0"
+version = "0.0.0"
 dependencies = [
  "datastruct_derive",
 ]
@@ -36,7 +36,7 @@ dependencies = [
 
 [[package]]
 name = "libtest"
-version = "0.1.0"
+version = "0.0.0"
 dependencies = [
  "datastruct",
 ]

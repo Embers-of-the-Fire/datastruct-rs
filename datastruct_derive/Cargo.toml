@@ -1,7 +1,14 @@
 [package]
 name = "datastruct_derive"
-version = "0.0.0"
 edition = "2021"
+version = "0.1.0"
+description = "The derive macro of `datastruct` crate."
+license = "MIT OR Apache-2.0"
+keywords = ["proc-macro", "data", "structure", "derive"]
+categories = ["data-structures"]
+publish = true
+repository = "https://github.com/embers-of-the-fire/datastruct-rs.git"
+readme = "../README.md"
 
 [lib]
 proc-macro = true
