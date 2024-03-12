@@ -1,7 +1,7 @@
 [package]
 name = "datastruct"
 edition = "2021"
-version = "0.1.0"
+version = "0.1.1"
 description = "A pure-data structure builder."
 license = "MIT OR Apache-2.0"
 keywords = ["proc-macro", "data", "structure", "derive"]
@@ -11,4 +11,4 @@ repository = "https://github.com/embers-of-the-fire/datastruct-rs.git"
 readme = "../README.md"
 
 [dependencies]
-datastruct_derive = { path = "../datastruct_derive", version = "0.1.0" }
+datastruct_derive = { path = "../datastruct_derive", version = "0.1.1" }

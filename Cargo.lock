@@ -4,14 +4,14 @@ version = 3
 
 [[package]]
 name = "datastruct"
-version = "0.0.0"
+version = "0.1.1"
 dependencies = [
  "datastruct_derive",
 ]
 
 [[package]]
 name = "datastruct_derive"
-version = "0.0.0"
+version = "0.1.1"
 dependencies = [
  "itertools",
  "proc-macro2",
@@ -36,7 +36,7 @@ dependencies = [
 
 [[package]]
 name = "libtest"
-version = "0.0.0"
+version = "0.1.1"
 dependencies = [
  "datastruct",
 ]
